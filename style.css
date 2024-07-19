@@ -1,0 +1,118 @@
+body{
+    font-family: sans-serif;
+    display: flex;
+    /* justify-content: space-between; */
+    background-color: whitesmoke;
+}
+/* form styling start */
+.formDiv{
+    width: 21%;
+    height: 85vh;
+    background-color: white;
+    padding: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 1px 10px;
+    margin-top: 1.5%;
+    margin-left: 0.5%;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+.formHeading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12%;
+    margin-top: 1%;
+}
+/* form input styling start */
+.form input{
+    padding: 10px;
+    margin-bottom: 8%;
+    border: 2px solid #ccc;
+    border-radius: 7px;
+    font-size: 16px;
+    transition: all 0.5s;
+    font-weight: 600;
+}
+.form input:focus{
+    outline: none;
+}
+.form input:focus::placeholder{
+    padding-left: 5px;
+    color: rgb(2, 212, 2);
+    transition: all 0.5s;
+}
+/* form input styling end */
+/* form select styling start */
+.form select{
+    padding: 10px;
+    margin-bottom: 8%;
+    border: 2px solid #ccc;
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(101, 101, 101);
+}
+.form select:focus{
+    outline: none;
+}
+/* form select styling end*/
+.formbtn{
+    background-color: rgb(1, 217, 1);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.formbtn:hover{
+    background-color: rgb(1, 181, 1);
+    transition: all 0.5s;
+}
+#copyright{
+    font-size: 11px;
+    text-align: center;
+    margin-top: 23%;
+    color: gray;
+}
+/* form styling end */
+/* table styling start */
+.tableDiv{
+    width: 70%;
+    margin-top: 1.5%;
+    height: 91vh;
+    margin-left: 0.8%;
+}
+.tableDiv table{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    padding: 10px;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.thead{
+    background-color: rgb(1, 181, 1);
+    color: white;
+    border-radius: 10px;
+}
+.thead th{
+    padding: 13px;
+}
+#tbody td{
+    padding: 12px;
+}
+#delbtn{
+    background-color: rgb(1, 181, 1);
+    color: white;
+    border: none;
+    padding: 5px;
+    width: 60px;
+    cursor: pointer;
+}
+/* table styling end */

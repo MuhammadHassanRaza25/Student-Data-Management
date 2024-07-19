@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Data Management</title>
+    <link rel="icon" href="images/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!---- form start ---->
+    <div class="formDiv">
+     <form class="form">
+        <h2 class="formHeading">Student Data Form <img width="30px" src="images/formicon.png" alt=""></h2>
+         <input type="text" placeholder="Enter Your Name">
+         <input type="text" placeholder="Enter Your Father Name">
+         <input type="email" placeholder="Enter Your Email">
+         <input type="number" placeholder="Enter Your Age">
+         <select name="" id="">
+            <option disabled selected>Select Course</option>
+            <option value="Web and Mobile App Development">Web and Mobile App Development</option>
+            <option value="Python Programming">Python Programming</option>
+            <option value="Graphic Designing">Graphic Designing</option>
+            <option value="Mobile Reparing">Mobile Repairing</option>
+            <option value="Cyber Security">Cyber Security</option>
+         </select>
+         <button class="formbtn" id="btn">Submit</button>
+         <h4 id="copyright">CopyRight &#169; 2024 By Muhammad Hassan Raza</h4>
+     </form>
+    </div>
+    <!----- form end ----->
+
+    <!-- table start -->
+     <div class="tableDiv">
+       <table>
+         <thead class="thead">
+            <tr>
+                <th>S.No</th>
+                <th>Roll Number</th>
+                <th>Name</th>
+                <th>Father Name</th>
+                <th>Email</th>
+                <th>Age</th>
+                <th>Course</th>
+                <th>Delete</th>
+            </tr>
+         </thead>
+         <tbody id="tbody">
+          <tr>
+            <td>1</td>
+            <td>21342434</td>
+            <td>dsfgsddsdaaaaaaaaaagsd</th>
+            <td>gsgsdfsaddddddddddd</td>
+            <td>Email@fsdfg</th>
+            <td>33</td>
+            <td>Cawfsdffdsfffffffffffffffffffff</td>
+            <td><button id="delbtn">Delete</button></td>
+          </tr>
+         </tbody>
+       </table>
+    </div>
+    <!-- table end -->
+
+    <script src="app.js"></script>
+</body>
+</html>
