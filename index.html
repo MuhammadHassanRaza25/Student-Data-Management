@@ -10,13 +10,14 @@
 <body>
     <!---- form start ---->
     <div class="formDiv">
-     <form class="form">
+     <form class="form" id="form">
         <h2 class="formHeading">Student Data Form <img width="30px" src="images/formicon.png" alt=""></h2>
-         <input type="text" placeholder="Enter Your Name">
-         <input type="text" placeholder="Enter Your Father Name">
-         <input type="email" placeholder="Enter Your Email">
-         <input type="number" placeholder="Enter Your Age">
-         <select name="" id="">
+         
+        <input type="text" placeholder="Enter Your Name" id="nameInput">
+         <input type="text" placeholder="Enter Your Father Name" id="fnameInput">
+         <input type="email" placeholder="Enter Your Email" id="emailInput">
+         <input type="number" placeholder="Enter Your Age" id="ageInput">
+         <select id="selectCourse">
             <option disabled selected>Select Course</option>
             <option value="Web and Mobile App Development">Web and Mobile App Development</option>
             <option value="Python Programming">Python Programming</option>
@@ -24,7 +25,8 @@
             <option value="Mobile Reparing">Mobile Repairing</option>
             <option value="Cyber Security">Cyber Security</option>
          </select>
-         <button class="formbtn" id="btn">Submit</button>
+         
+         <button class="formbtn" id="submitBtn" type="button">Submit</button>
          <h4 id="copyright">CopyRight &#169; 2024 By Muhammad Hassan Raza</h4>
      </form>
     </div>
@@ -46,21 +48,17 @@
             </tr>
          </thead>
          <tbody id="tbody">
-          <tr>
-            <td>1</td>
-            <td>21342434</td>
-            <td>dsfgsddsdaaaaaaaaaagsd</th>
-            <td>gsgsdfsaddddddddddd</td>
-            <td>Email@fsdfg</th>
-            <td>33</td>
-            <td>Cawfsdffdsfffffffffffffffffffff</td>
-            <td><button id="delbtn">Delete</button></td>
-          </tr>
+
          </tbody>
        </table>
     </div>
     <!-- table end -->
 
+    <!-- No Data Icon Start -->
+    <div id="dataiconDiv"><img src="images/dd.jpg" alt="image"></div>
+    <!-- No Data Icon End -->
+
     <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 </html>

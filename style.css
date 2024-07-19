@@ -1,8 +1,8 @@
 body{
     font-family: sans-serif;
     display: flex;
-    /* justify-content: space-between; */
-    background-color: whitesmoke;
+    justify-content: space-evenly;
+    background-color: rgb(216, 216, 216);
 }
 /* form styling start */
 .formDiv{
@@ -24,7 +24,7 @@ body{
     justify-content: center;
     align-items: center;
     gap: 10px;
-    margin-bottom: 12%;
+    margin-bottom: 15%;
     margin-top: 1%;
 }
 /* form input styling start */
@@ -61,7 +61,7 @@ body{
 }
 /* form select styling end*/
 .formbtn{
-    background-color: rgb(1, 217, 1);
+    background-color: rgb(1, 181, 1);
     color: white;
     padding: 10px;
     border: none;
@@ -71,11 +71,11 @@ body{
     transition: all 0.5s;
 }
 .formbtn:hover{
-    background-color: rgb(1, 181, 1);
+    background-color: rgb(1, 217, 1);
     transition: all 0.5s;
 }
 #copyright{
-    font-size: 11px;
+    font-size: 11.5px;
     text-align: center;
     margin-top: 23%;
     color: gray;
@@ -83,10 +83,15 @@ body{
 /* form styling end */
 /* table styling start */
 .tableDiv{
-    width: 70%;
+    width: 74%;
+    background-color: white;
     margin-top: 1.5%;
     height: 91vh;
     margin-left: 0.8%;
+    overflow: scroll;
+}
+.tableDiv::-webkit-scrollbar{
+    display: none;
 }
 .tableDiv table{
     width: 100%;
@@ -100,6 +105,8 @@ body{
     background-color: rgb(1, 181, 1);
     color: white;
     border-radius: 10px;
+    position: sticky;
+    top: 0;
 }
 .thead th{
     padding: 13px;
@@ -116,3 +123,14 @@ body{
     cursor: pointer;
 }
 /* table styling end */
+
+/* No Data Icon styling start */
+#dataiconDiv{
+    position: absolute; 
+    top: 37%; 
+    left: 55%;
+}
+#dataiconDiv img{
+    width: 200px;
+}
+/* No Data Icon styling end*/
