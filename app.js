@@ -17,7 +17,7 @@ submitBtn.addEventListener('click',()=>{
     // Generating Roll Number Start
     var rollNum = Math.floor(Math.random()*10000)
     if(rollNum < 1000){
-        rollNum = '0'+rollNum
+        rollNum = '00'+rollNum
     }
     console.log(rollNum);
     // Generating Roll Number End

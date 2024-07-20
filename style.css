@@ -118,9 +118,15 @@ body{
     background-color: rgb(1, 181, 1);
     color: white;
     border: none;
-    padding: 5px;
-    width: 60px;
+    padding: 6px;
+    width: 65px;
     cursor: pointer;
+    font-size: 17px;
+    transition: all 0.5s;
+}
+#delbtn:hover{
+    background-color: rgb(1, 217, 1);
+    transition: all 0.5s;
 }
 /* table styling end */
 
