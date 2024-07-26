@@ -32,7 +32,8 @@ submitBtn.addEventListener('click',()=>{
         email: emailInput.value,
         age: ageInput.value,
         course: selectCourse.value,
-    }
+    } 
+    
     studentData.push(studentdataObj)
     localStorage.setItem('studentsData', JSON.stringify(studentData))
     Swal.fire({
