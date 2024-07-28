@@ -140,3 +140,44 @@ body{
     width: 200px;
 }
 /* No Data Icon styling end*/
+
+/* Responsiveness Start */
+@media(max-width:1024px){
+    body{
+        flex-direction: column;
+    }
+    .formDiv{
+        width: 50%;
+        margin-top: 1.5%;
+        margin-left: 23%;
+        height: 90vh;
+    }
+    .tableDiv{
+        width: 100%;
+        margin-top: 2%;
+        margin-left: 0%;
+    }
+    #dataiconDiv{
+        position: absolute; 
+        top: 140%; 
+        left: 44%;
+    }
+    #dataiconDiv img{
+        width: 150px;
+    }
+}
+@media(max-width:500px){
+    .formDiv{
+        width: 90%;
+        margin-left: 0%;
+    }
+    #dataiconDiv{
+        position: absolute; 
+        top: 140%; 
+        left: 37%;
+    }
+    #dataiconDiv img{
+        width: 150px;
+    }
+}
+/* Responsiveness End */
